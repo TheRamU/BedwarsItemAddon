@@ -1,0 +1,11 @@
+#更新检测
+update_check:
+
+  #是否启用
+  enabled:  true
+
+  #向在线管理员报告版本更新
+  report: true
+
+#区域语言
+locale: zh_CN

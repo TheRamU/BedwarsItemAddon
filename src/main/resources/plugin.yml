@@ -1,0 +1,17 @@
+name: BedwarsItemAddon
+main: me.ram.bedwarsitemaddon.Main
+version: ${project.version}
+author: Ram
+depend: [ BedwarsRel, ProtocolLib ]
+softdepend: [ BedwarsScoreBoardAddon ]
+website: "https://github.com/TheRamU/BedwarsItemAddon"
+
+commands:
+  bedwarsitemaddon:
+    aliases: [ bwia ]
+
+permissions:
+  bedwarsitemaddon.reload:
+    default: op
+  bedwarsitemaddon.updatecheck:
+    default: op

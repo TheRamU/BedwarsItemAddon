@@ -1,0 +1,260 @@
+#火球
+fireball:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 0.5
+
+  #傷害
+  damage: 3
+
+  #破壞範圍
+  range: 2.0
+
+  #彈射模式
+  ejection:
+    
+    #啟用
+    enabled: true
+
+    #彈射速度
+    velocity: 0.5
+    
+    #無摔落傷害
+    no_fall: false
+
+
+#TNT自動點燃
+tnt:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 0.0
+
+  #爆炸延遲
+  fuse_ticks: 80
+
+  #傷害
+  damage: 3
+
+  #破壞範圍
+  range: 3.0
+
+  #彈射模式
+  ejection:
+    
+    #啟用
+    enabled: true
+
+    #彈射速度
+    velocity: 0.5
+    
+    #無摔落傷害
+    no_fall: false
+
+
+#TNT發射器
+tnt_launch:
+
+  #啟用
+  enabled: true
+
+  #物品
+  item: DISPENSER
+
+  #冷卻時間(秒)
+  cooldown: 5.0
+
+  #爆炸延遲
+  fuse_ticks: 20
+
+  #傷害
+  damage: 3
+
+  #破壞範圍
+  range: 3.0
+
+  #發射速度
+  launch_velocity: 2
+
+  #彈射模式
+  ejection:
+    
+    #啟用
+    enabled: true
+
+    #彈射速度
+    velocity: 0.5
+    
+    #無摔落傷害
+    no_fall: false
+
+
+#降落傘
+parachute:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 5.0
+
+  #物品
+  item: FEATHER
+
+  #彈射速度(高度)
+  velocity: 3
+
+  #降落速度
+  landing_velocity: 0.2
+
+  #滑翔速度
+  gliding_velocity: 0.3
+
+
+#蹦床
+trampoline:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 5.0
+
+  #物品
+  item: DOUBLE_PLANT
+
+  #蹦床大小 1-3
+  size: 2
+
+  #彈射速度(高度)
+  velocity: 3
+
+  #蹦床多少秒後消失
+  staytime: 20
+
+  #無摔落傷害
+  no_fall: true
+
+  #空間不足提示
+  lack_space: "沒有足夠的空間使用此道具！"
+
+
+#搭橋蛋
+bridge_egg:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 5.0
+
+  #每次最大放置方塊數量
+  maxblock: 50
+
+
+#騎行末影珍珠
+ender_pearl_chair:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 0.0
+
+
+#隊伍防守鐵傀儡
+team_iron_golem:
+
+  #啟用
+  enabled: true
+
+  #物品
+  item: MONSTER_EGG
+
+  #冷卻時間(秒)
+  cooldown: 0.0
+
+  #鐵傀儡有效時間
+  # -1 禁用此功能
+  staytime: 120
+
+  #血量
+  health: 20
+
+  #對玩家造成的傷害
+  damage: 3
+
+  #鐵傀儡名稱
+  name: "{color}{team} 鐵傀儡 {time}秒"
+
+
+#隊伍防守蠹蟲
+team_silver_fish:
+
+  #啟用
+  enabled: true
+
+  #蠹蟲有效時間
+  # -1 禁用此功能
+  staytime: 120
+
+  #血量
+  health: 20
+
+  #對玩家造成的傷害
+  damage: 2
+
+  #蠹蟲名稱
+  name: "{color}{team} 蠹蟲 {time}秒"
+
+
+#防爆玻璃
+explosion_proof:
+
+  #啟用
+  enabled: true
+
+#行走平臺
+walk_platform:
+
+  #啟用
+  enabled: true
+
+  #物品
+  item: PAPER
+
+  #冷卻時間(秒)
+  cooldown: 30.0
+
+  #消失時間
+  break_time: 5
+
+
+#魔法牛奶 (免疫陷阱)
+magic_milk:
+
+  #啟用
+  enabled: true
+
+  #冷卻時間(秒)
+  cooldown: 0.0
+  
+  #有效時間(秒)
+  duration: 30
+
+#緊湊型防禦塔塔
+compact_tower:
+
+  #啟用
+  enabled: true
+
+  #物品
+  item: CHEST
+
+  #冷卻時間(秒)
+  cooldown: 0.0

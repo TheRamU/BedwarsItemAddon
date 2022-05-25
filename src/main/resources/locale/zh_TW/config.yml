@@ -1,0 +1,11 @@
+#更新檢測
+update_check:
+
+  #是否啟用
+  enabled:  true
+
+  #向在線管理員報告版本更新
+  report: true
+
+#區域語言
+locale: zh_TW

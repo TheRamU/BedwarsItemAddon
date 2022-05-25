@@ -1,0 +1,13 @@
+item:
+  cooling: "&ePlease wait &c{time}s &eto use that again!"
+  magic_milk_off: "&cYour Magic Milk wore off!"
+commands:
+  help:
+  - " &e/bwia  &7-&f  Plugin info"
+  - " &e/bwia help  &7-&f  Get help"
+  - " &e/bwia reload  &7-&f  Reload configuration"
+  - " &e/bwia upcheck  &7-&f  Update check"
+  message:
+    prefix: "&b&lBWIA &f>> "
+    no_permission: "&cNo permission to use this command!"
+    reloaded: "&aReload completed!"

@@ -1,0 +1,260 @@
+#Fireball
+fireball:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 0.5
+
+  #Damage value
+  damage: 3
+
+  #Damage range
+  range: 2.0
+
+  #Ejection mode
+  ejection:
+    
+    #Enable this?
+    enabled: true
+
+    #Ejection velocity
+    velocity: 0.5
+    
+    #No falling damage
+    no_fall: false
+
+
+#TNT
+tnt:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 0.0
+
+  #Explosion delay
+  fuse_ticks: 80
+
+  #Damage value
+  damage: 3
+
+  #Damage range
+  range: 3.0
+
+  #Ejection mode
+  ejection:
+    
+    #Enable this?
+    enabled: true
+
+    #Ejection velocity
+    velocity: 0.5
+    
+    #No falling damage
+    no_fall: false
+
+
+#TNT Launcher
+tnt_launch:
+
+  #Enable this?
+  enabled: true
+
+  #Item ID
+  item: DISPENSER
+
+  #Cooldown time(Second)
+  cooldown: 5.0
+
+  #Explosion delay
+  fuse_ticks: 20
+
+  #Damage value
+  damage: 3
+
+  #Damage range
+  range: 3.0
+
+  #Launch velocity
+  launch_velocity: 2
+
+  #Ejection mode
+  ejection:
+    
+    #Enable this?
+    enabled: true
+
+    #Ejection velocity
+    velocity: 0.5
+    
+    #No falling damage
+    no_fall: false
+
+
+#Parachute
+parachute:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 5.0
+
+  #Item ID
+  item: FEATHER
+
+  #Ejection velocity(Height)
+  velocity: 3
+
+  #Landing velocity
+  landing_velocity: 0.2
+
+  #Gliding velocity
+  gliding_velocity: 0.3
+
+
+#Trampoline
+trampoline:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 5.0
+
+  #Item ID
+  item: DOUBLE_PLANT
+
+  #Trampoline size 1-3
+  size: 2
+
+  #Ejection velocity(Height)
+  velocity: 3
+
+  #Duration
+  staytime: 20
+
+  #No falling damage
+  no_fall: true
+
+  #Lack of space
+  lack_space: "Not enough space to use!"
+
+
+#Bridge_egg
+bridge_egg:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 5.0
+
+  #Max number of block placed
+  maxblock: 50
+
+
+#Ender Pearl Chair
+ender_pearl_chair:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 0.0
+
+
+#Dream Defender
+team_iron_golem:
+
+  #Enable this?
+  enabled: true
+
+  #Item ID
+  item: MONSTER_EGG
+
+  #Cooldown time (Second)
+  cooldown: 0.0
+
+  #Duration (Second)
+  # Use -1 to disable
+  staytime: 120
+
+  #Golem health
+  health: 20
+
+  #Damage value
+  damage: 3
+
+  #Golem name
+  name: "{color}{team} Iron Golem {time} seconds"
+
+
+#Bedbug
+team_silver_fish:
+
+  #Enable this?
+  enabled: true
+
+  #Duration (Second)
+  # Use -1 to disable
+  staytime: 120
+
+  #Silver Fish health
+  health: 20
+
+  #Damage value
+  damage: 2
+
+  #Silver Fish name
+  name: "{color}{team} Silver Fish {time} seconds"
+
+
+#Explosion-Proof Glass
+explosion_proof:
+
+  #Enable this?
+  enabled: true
+
+#Walk Platform
+walk_platform:
+
+  #Enable this?
+  enabled: true
+
+  #Item ID
+  item: PAPER
+
+  #Cooldown time(Second)
+  cooldown: 30.0
+
+  #Duration (Second)
+  break_time: 5
+
+
+#Magic Milk
+magic_milk:
+
+  #Enable this?
+  enabled: true
+
+  #Cooldown time(Second)
+  cooldown: 0.0
+  
+  #Duration (Second)
+  duration: 30
+
+#Compact Pop-up Tower
+compact_tower:
+
+  #Enable this?
+  enabled: true
+
+  #Item ID
+  item: CHEST
+
+  #Cooldown time(Second)
+  cooldown: 0.0

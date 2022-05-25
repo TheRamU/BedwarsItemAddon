@@ -1,0 +1,13 @@
+item:
+  cooling: "&e冷卻中，請等待 &c{time} &e秒後使用！"
+  magic_milk_off: "&c妳的魔法牛奶已失效！"
+commands:
+  help:
+  - " &e/bwia  &7-&f  顯示插件信息"
+  - " &e/bwia help  &7-&f  顯示幫助菜單"
+  - " &e/bwia reload  &7-&f  重載配置文件"
+  - " &e/bwia upcheck  &7-&f  檢測版本更新"
+  message:
+    prefix: "&b&lBWIA &f>> "
+    no_permission: "&c妳沒有使用該命令的權限！"
+    reloaded: "&a配置文件重載完成！"
