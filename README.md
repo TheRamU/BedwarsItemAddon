@@ -65,4 +65,4 @@ Walk Platform / 行走平台
 
 Compact Pop-up Tower / 防御型塔
 
-Magic Milk (Depend BedwarsScoreBoardAddon) / 模仿牛奶 (依赖 BedwarsScoreBoardAddon)
+Magic Milk (Depend BedwarsScoreBoardAddon) / 魔法牛奶 (依赖 BedwarsScoreBoardAddon)
